@@ -19,6 +19,7 @@ public class main {
            }
            if(userInput.contains("price") || userInput.contains("prices")){
             System.out.println("Our prices vary by locations, but range from $10-$15");
+            count++;
            }
            if (userInput.contains("drink") || userInput.contains("drinks") 
            || userInput.contains("beverage") || userInput.contains("cup") 
