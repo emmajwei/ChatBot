@@ -61,7 +61,7 @@ public class main {
             System.out.println("We only offer one type of cheese: shredded parmesan :D");
             count++;
            }
-           if (userInput.contains("locations") || userInput.contains("location") ||(userInput.contains("where") && !userInput.contains("order")) || userInput.contains("buy")
+           if (userInput.contains("locations") || userInput.contains("location") ||(userInput.contains("where") && !userInput.contains("order"))
                || userInput.contains("store locations") || userInput.contains("place") || userInput.contains("map") || userInput.contains("store")) {
                System.out.println(chatBot.getLocation());
                count++;
@@ -69,7 +69,7 @@ public class main {
 
 
            if (userInput.contains("order") || userInput.contains("take-out") || userInput.contains("delivery")
-               || userInput.contains("online")) {
+               || userInput.contains("online")|| userInput.contains("buy")) {
                System.out.println("Sorry we do not offer online ordering. You may only order in person at our stores :)");
                count ++;
            } 
