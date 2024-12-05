@@ -68,7 +68,7 @@ public class main {
            }
 
 
-           if (userInput.contains("order") || userInput.contains("take-out") || userInput.contains("delivery")
+           if (userInput.contains("order") || userInput.contains("take-out") || userInput.contains("takeout")|| userInput.contains("delivery")
                || userInput.contains("online")|| userInput.contains("buy")) {
                System.out.println("Sorry we do not offer online ordering. You may only order in person at our stores :)");
                count ++;
