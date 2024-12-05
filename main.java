@@ -13,7 +13,7 @@ public class main {
        while (true) {
            String userInput = scanner.nextLine().toLowerCase();
            int count = 0;
-           if (userInput.equals("bye")) {
+           if (userInput.contains("bye")) {
                System.out.println(chatBot.getThanks());
                break;
            }
@@ -54,7 +54,7 @@ public class main {
            }
            if(userInput.contains("cheese") || userInput.contains("parmesan") || userInput.contains("cheddar") 
            || userInput.contains("mozsarella")){
-            System.out.println("We only have one type of cheese: shredded parmesan.");
+            System.out.println("We only offer one type of cheese: shredded parmesan :D");
             count++;
            }
            if (userInput.contains("locations") || userInput.contains("location") ||(userInput.contains("where") && !userInput.contains("order"))
@@ -66,7 +66,7 @@ public class main {
 
            if (userInput.contains("order") || userInput.contains("take-out") || userInput.contains("delivery")
                || userInput.contains("online")) {
-               System.out.println("We do not offer online ordering. You may only order in person at our stores.");
+               System.out.println("Sorry we do not offer online ordering. You may only order in person at our stores :)");
                count ++;
            } 
            if(count < 1){

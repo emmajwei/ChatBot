@@ -40,9 +40,9 @@ public class ChipotleChatBot {
             "Goodbye! Thanks for using the Chipotle ChatBot."
         };
         confused = new String[]{
-            "Sorry, I don't understand. You can ask about our hours, menu, or locations.",
-            "I'm not sure what you are asking, please ask about our hours, menu, or locations.",
-            "Sorry, that is not part of my vocabulary. We only answer questions about hours, menu, or location."
+            "Sorry, I don't understand. You can ask about our hours, menu, or locations. Bye to exit chat.",
+            "I'm not sure what you are asking, please ask about our hours, menu, or locations. Bye to exit chat.",
+            "Sorry, that is not part of my vocabulary. We only answer questions about hours, menu, or location. Bye to exit chat."
         };
     }
     public String getConfused(){
