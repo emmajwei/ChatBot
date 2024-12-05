@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class main {
    public static void main(String[] args) {
        Scanner scanner = new Scanner(System.in);
-       ChipotleChatBot chatBot = new ChipotleChatBot();
-       System.out.println("Welcome to the Chipotle chatBot. How can I help you?");
-       System.out.println("You can ask about Chipotle's working hours, types of food, or locations.");
+       ChibotleChatBot chatBot = new ChibotleChatBot();
+       System.out.println("Welcome to the Chibotle chatBot. How can I help you?");
+       System.out.println("You can ask about Chibotle's working hours, types of food, or locations.");
        System.out.println("Type 'bye' to exit the chat");
 
        
@@ -16,6 +16,9 @@ public class main {
            if (userInput.contains("bye")) {
                System.out.println(chatBot.getThanks());
                break;
+           }
+           if(userInput.contains("price") || userInput.contains("prices")){
+            System.out.println("Our prices vary by locations, but range from $10-$15");
            }
            if (userInput.contains("drink") || userInput.contains("drinks") 
            || userInput.contains("beverage") || userInput.contains("cup") 
