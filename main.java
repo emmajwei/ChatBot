@@ -61,7 +61,7 @@ public class main {
             System.out.println("We only offer one type of cheese: shredded parmesan :D");
             count++;
            }
-           if (userInput.contains("locations") || userInput.contains("location") ||(userInput.contains("where") && !userInput.contains("order"))
+           if (userInput.contains("locations") || userInput.contains("location") ||(userInput.contains("where") && !userInput.contains("order")) || userInput.contains("buy")
                || userInput.contains("store locations") || userInput.contains("place") || userInput.contains("map") || userInput.contains("store")) {
                System.out.println(chatBot.getLocation());
                count++;
